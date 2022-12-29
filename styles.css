@@ -46,3 +46,21 @@ h1{
 .countdown-el span{
     font-size: 1.5rem;
 }
+
+@media screen and (max-width: 414px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .countdown-container {
+        padding: 5px;
+        margin: 30px;
+    }
+
+    .text {
+        font-weight: bold;
+        font-size: 4rem;
+        line-height: 1;
+        margin: 2rem 2rem;
+    }
+}
