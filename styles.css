@@ -5,7 +5,7 @@
 }
 
 body{
-    background: linear-gradient(80deg, #ae0505, #ae0505);
+    background: linear-gradient(80deg, #ff0e0e, #c29414);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,10 +15,16 @@ body{
     color: white;
 }
 
+img {
+    margin-top: 4.5rem;
+    width: 150px;
+    height: 150px;
+}
+
 h1{
     font-weight: 600;
     font-size: 4rem;
-    margin-top: 10.5rem;
+    margin-top: 7.5rem;
 }
 
 .countdown-container{
@@ -48,7 +54,13 @@ h1{
 }
 
 @media screen and (max-width: 414px) {
+    img{
+        width: 80px;
+        height: 80px;
+    }
+
     h1 {
+        padding-top: 10px;
         font-size: 20px;
     }
 
