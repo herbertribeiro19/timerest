@@ -3,9 +3,9 @@ const hoursEl = document.getElementById("hours");
 const minsEl = document.getElementById("mins");
 const secondsEl = document.getElementById("seconds");
 
-const newYears = "20 Mar 2023";
+const newYears = "15 Dec 2023";
 
-function countdown(){
+function countdown() {
     const newYearsDate = new Date(newYears);
     const currentDate = new Date();
 
@@ -28,4 +28,4 @@ function formatTime(time) {
 
 countdown();
 
-setInterval(countdown,1000);
+setInterval(countdown, 1000);

@@ -5,8 +5,12 @@
 }
 
 body{
-    background: linear-gradient(80deg, #ff0e0e, #c29414);
+    background: url(./bg.jpg);
     display: flex;
+    backdrop-filter: blur(3px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
@@ -15,19 +19,31 @@ body{
     color: white;
 }
 
-img {
-    margin-top: 2rem;
-    width: 100px;
-    height: 100px;
+.span-coracao{
+    margin-top: 100px;
+    float: left;
+    color: #ffffff;
+    width: 80px;
+    height: 80px;
+    font-size: 60px;
+    cursor: pointer;
+    background-color: #000000;
+    border-radius: 40px;
+    text-align: center;
+    line-height: 80px;
+    transition: 0.9s;
+
 }
 
 h1{
+    padding-top: 100px;
     font-weight: 600;
     font-size: 4rem;
     margin-top: 2rem;
 }
 
 .countdown-container{
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
